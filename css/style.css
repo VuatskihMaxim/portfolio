@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&display=swap');
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 20px;
+}
+body{
+    background-image: url("../assects/image/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo:hover{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+.header-links__item{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.header-links__item:hover{
+    color: #bdae82;
+}
+.header-links__translation{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-links__translation-english{
+    color: #bdae82;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold; 
+    padding-left: 30px;
+}
+.section-photographer{
+    margin: 180px 80px;
+}
+.hero-wrapper{
+    margin-top: 160px;
+    margin-left: 80px;
+}
+h1, h2{
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+}
+.section-photographer__text{
+    color: white;
+    font-size: 20px;
+    max-width: 470px;
+}
+.section-photographer__button, .section-portfolio__button-Autumn{ 
+    margin-top: 25px;
+    font-size: 20px;
+    border-style: none; 
+    background-color: #bdae82;
+    padding: 15px 70px;
+}
+.section-photographer__button:hover, .section-portfolio__button-Autumn:hover{
+    color: white;
+}
+.section-skills{
+    margin-top: 430px;
+}
+.section__heading-h2{
+    font-size: 40px;
+    color: #bdae82;
+    text-align: center;
+}
+.section-skills__containers{
+    display: flex;
+    flex-direction: row;
+    padding: 60px 20px;
+}
+.section-skills__container{
+    max-width: 320px;
+    padding-left: 40px;
+    text-align: center;
+}
+.section-skills__subtitle{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px 0px 20px;
+}
+.section-skills__text{
+    color: white;
+    font-size: 18px;
+}
+.portfolio-btns{
+    text-align: center;
+    padding: 20px 0; 
+}
+.section-portfolio__button{
+    background-color: black;
+    border-color: #bdae82;
+    color: #bdae82;
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 13px 70px;
+}
+.section-portfolio__button:hover{
+    color: white;
+}
+.portfolio-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
